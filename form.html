@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./home.html">
+    <input type="text" name="fullname" placeholder="enter your full name"/>
+    <input type="email" name="email"placeholder="enter your email"/>
+    <input type="number"name="age"placeholder="enter your age"/>
+    <input type="password"name="password"placeholder="enter strong password"/>
+    <input type="submit"value="Register"/>
+    </form>
+    <!--value default content of every input field-->
+    <!--eg=http:localhost:5500/home.html?full name=ram&email=abs@gmail.com&age=4444444440 & password=abc-->
+    <!--query parameter:
+      format:key=value-->
+      <form action="./dashboard.html">
+        <h1>LOGIN</h1>
+        <label for="'my-email">Email</label>
+        <br></br>
+        <input type="email"placeholder="enter your email"name="email"id="my-email"required/>
+        <br></br> <br></br>
+        <label for="my-pass">Password</label>
+        <br></br>
+        <input type="password"name="password"placeholder="enter your password"id="my-pass"required/>
+        <br></br><br></br>
+        <button type="submit">Login</button>
+      </form>
+      <!--#color picker-->
+      <input type="color"nmae="background"/>
+      <!--#data picker-->
+      <input type="data"name="birthdate"/>
+      <!--#time picker-->
+      <input type="time"name="nepal time"/>
+      <!--#drop down-->
+      <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+      </select>
+      <!--#to select initially-->
+      <option value="Female"selected >Female</option>
+      <!--#checkbox-->
+      <lebel for="cb">
+        <input type="checkbox"
+          name="tc"
+          value="true"/>
+          terms & conditions
+      </lebel>
+      <!--radio button-->
+      <label for="g"Select gender></label>
+      <br></br>
+      <input id="g" type="radio"name="gender" value="Male"/>
+      Male
+      <input id="g" type="radio"name="gender" value="Female"/>
+      Female
+      <input id="g" type="radio"name="gemder" value="others"/>
+      Others
+</body>
+</html>
